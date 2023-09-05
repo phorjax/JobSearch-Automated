@@ -38,21 +38,7 @@ def scrolling():
     time.sleep(1)
     driver.execute_script(scroll_up, jobs_listing_body)
 
-# def pagination():
-#     # find_pages = driver.find_element(By.CLASS_NAME, 'artdeco-pagination__pages')
 
-#     # page_buttons = find_pages.find_element(By.TAG_NAME, 'button')
-#     # print(len(page_buttons))
-#     for i in range(1, 40):
-#         scrolling()
-#         next_button = driver.find_element(By.XPATH, "//button[span[text()='" + str(i + 1) + "']]")        
-#         next_button.click()
-#         time.sleep(1)
-
-        
-#         continue
-        
-        
 def get_and_apply_to_listings():
         for i in range(1, 40):
             scrolling()
@@ -132,14 +118,6 @@ get_and_apply_to_listings()
     
     
     
-# driver.close()
-
-
-# footer_button = driver.find_element(By.XPATH, "//button[span[text()='Next']]")
-
-
-
-
 
 
 
