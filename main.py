@@ -4,8 +4,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.keys import Keys
 import time
 
-username = 'forjaxtres@gmail.com'
-password = '1000893751'
+
 Chrome_driver_path = r"C:\Users\19549\Downloads\chrome-win64\chrome-win64"
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("user-data-dir="r"c:\Users\19549\AppData\Local\Google\Chrome\WebDriver")
